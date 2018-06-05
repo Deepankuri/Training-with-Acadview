@@ -1,1 +1,7 @@
 Hello git
+Git commands 
+git init - It is used to create/initialize a new repository
+git add - It is used to add various files
+git commit - It is used to commit/establishe the changes
+git status - It is used to check the status of repository
+git log - It manages the log/track of all the changes made
