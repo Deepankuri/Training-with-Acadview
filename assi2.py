@@ -1,3 +1,4 @@
+
 '''
 Create two sorted arrays and merge them into another sorted array
 '''
@@ -39,3 +40,18 @@ q.append(10)
 print('first elem deleted by fifo')
 print(q.pop(0))
 print(q)
+
+'''
+counting even and odd elements
+'''
+even = 0
+odd = 0
+for i in q:
+      if(i%2==0):
+              even+=1
+      else:
+          odd+=1
+print('even count')
+print(even)
+print('odd count')
+print(odd)
