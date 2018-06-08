@@ -51,7 +51,7 @@ dic = {}
 for i in range(0,9):
          key = input('enter name of the std:')
          value = input('enter the marks of the std:')
-         b[key] = value
+         dic[key] = value
          print(dic)
 
 #sorted according to the marks
