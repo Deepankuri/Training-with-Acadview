@@ -26,8 +26,10 @@ print("the month of today's date is")
 print(d.month)
 
 #Extracting day from time
+y = time.localtime()
+day = str(y.tm_day)
 print("today the day is")
-print(d.day)
+print(day)
 
 #Print date
 print('the date is')
