@@ -60,7 +60,8 @@ for i in range(10):
     s1 = str(a)
 af.write(s1)
 af.close()
-                                                                                                                                                                        af2 = open('test.txt','r')
+
+af2 = open('test.txt','r')
 while True:
 	line = af2.readline()
 	print(line)
@@ -73,7 +74,8 @@ s2 = str(a)
 bf = open('testing2.txt','w')
 bf.write(s2)
 bf.close()
-                                                                                                                                                                        bf2 = open('test2.txt','r')
+
+bf2 = open('test2.txt','r')
 while True:
 	line = bf2.readline()
     print(line)
